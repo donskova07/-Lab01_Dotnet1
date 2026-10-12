@@ -132,12 +132,15 @@
 //     Console.WriteLine("\"Hello There\"");
 // }
 //  }
-// задание 4
+// задание 6
 using System;
 class Program
 {
     static void Main()
     {
-        
+        double cel = double.Parse(Console.ReadLine());
+        double far = cel * 9 / 5 + 32;
+Console.WriteLine($"температура: {far} °F");
+ 
     }
 }
