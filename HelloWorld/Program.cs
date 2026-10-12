@@ -70,27 +70,74 @@
 // Console.WriteLine(int.MinValue);
 // Console.WriteLine(double.MaxValue);
 // Console.WriteLine(double.MinValue);
-Console.WriteLine("ВВЕДИТЕ ВАШЕ ИМЯ: ");
-string name = Console.ReadLine();
-Console.Write("введите вашу фамилию:");
-string surname = Console.ReadLine();
-Console.Write("введите вашу группу:");
-string group = Console.ReadLine();
-Console.Write("введите ваш год рождения:");
-int birthYear = int.Parse(Console.ReadLine());
-Console.Write("введите ваш средний балл (например, 4.5): ");
-double gpa = double.Parse(Console.ReadLine());
-int currentYear = 2026;
-int age = currentYear - birthYear;
-bool isExcellent = gpa >= 4.5;
-string status;
-if (isExcellent == true) status = "ОТЛИЧНИК";
-else status = "Хорошист";
-Console.WriteLine("ваша анкета");
-Console.WriteLine($"имя: {name} {surname}");
-Console.WriteLine($"Группа: {group}");
-Console.WriteLine($"возраст: {age} лет");
-Console.WriteLine($"статус: {status}");
-Console.WriteLine($"лет до 30: {30 - age}!");
-Console.WriteLine("нажмите enter для выхода..");
-Console.ReadLine();
+// Console.WriteLine("ВВЕДИТЕ ВАШЕ ИМЯ: ");
+// string name = Console.ReadLine();
+// Console.Write("введите вашу фамилию:");
+// string surname = Console.ReadLine();
+// Console.Write("введите вашу группу:");
+// string group = Console.ReadLine();
+// Console.Write("введите ваш год рождения:");
+// int birthYear = int.Parse(Console.ReadLine());
+// Console.Write("введите ваш средний балл (например, 4.5): ");
+// double gpa = double.Parse(Console.ReadLine());
+// int currentYear = 2026;
+// int age = currentYear - birthYear;
+// bool isExcellent = gpa >= 4.5;
+// string status;
+// if (isExcellent == true) status = "ОТЛИЧНИК";
+// else status = "Хорошист";
+// Console.WriteLine("ваша анкета");
+// Console.WriteLine($"имя: {name} {surname}");
+// Console.WriteLine($"Группа: {group}");
+// Console.WriteLine($"возраст: {age} лет");
+// Console.WriteLine($"статус: {status}");
+// Console.WriteLine($"лет до 30: {30 - age}!");
+// Console.WriteLine("нажмите enter для выхода..");
+// Console.ReadLine();
+// задание1
+// using System;
+// class Program
+// {
+//     static void Main()
+//     {
+//         string favgame = "CS";
+//         int favnumber = 6;
+//         double pi = Math.PI;
+//         char fav = 'u';
+//         Console.WriteLine($"любимая игра: {favgame}");
+//         Console.WriteLine($"любимая цифра: {favnumber}");
+//         Console.WriteLine($"знач числа пи: {pi}");
+//         Console.WriteLine($"любимая буква алфавита: {fav}");
+
+//     }
+// }
+//задание 2
+// using System;
+// class Program
+// {
+//     static void Main()
+//     {
+//         Console.WriteLine("i");
+//         Console.WriteLine("need");
+//         Console.WriteLine("more");
+//         Console.WriteLine("power!");
+//     }
+// }
+// задание 3
+//  using System;
+//  class Program
+//  {
+//      static void Main()
+//      {
+//     Console.WriteLine("\"Hello There\"");
+// }
+//  }
+// задание 4
+using System;
+class Program
+{
+    static void Main()
+    {
+        
+    }
+}
