@@ -94,7 +94,9 @@
 // Console.WriteLine($"лет до 30: {30 - age}!");
 // Console.WriteLine("нажмите enter для выхода..");
 // Console.ReadLine();
-// задание1
+
+
+// задание1 
 // using System;
 // class Program
 // {
@@ -132,15 +134,32 @@
 //     Console.WriteLine("\"Hello There\"");
 // }
 //  }
-// задание 6
-using System;
-class Program
-{
-    static void Main()
-    {
-        double cel = double.Parse(Console.ReadLine());
-        double far = cel * 9 / 5 + 32;
-Console.WriteLine($"температура: {far} °F");
- 
-    }
-}
+// задание 4
+// using System; 
+// class Program
+// {
+//     static void Main()
+//     {
+//         string inputMon = Console.ReadLine();
+//         int mon = int.Parse(inputMon);
+//         int blok = int.Parse(Console.ReadLine());
+//         int klava = int.Parse(Console.ReadLine());
+//         int mouse = int.Parse(Console.ReadLine());
+//         int onecomp = mon + blok + klava + mouse;
+//         int itog = onecomp * 3;
+//         Console.WriteLine(itog);
+//     }
+// }
+// задание 5
+// using System;
+
+// class Program
+// {
+//     static void Main()
+//     {
+//         int a = int.Parse(Console.ReadLine());
+//         int b = int.Parse(Console.ReadLine());
+//         int result = a * a + b; 
+//         Console.WriteLine(result);
+//     }
+// }
